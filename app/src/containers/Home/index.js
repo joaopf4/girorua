@@ -11,7 +11,7 @@ const HomeWrapper = styled.div`
 export const Home = () => {
   return <HomeWrapper>
     <h1>
-      Hello word!
+      Hello world!
     </h1>
   </HomeWrapper>
 }
