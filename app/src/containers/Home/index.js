@@ -1,6 +1,6 @@
 import React from "react";
-import { connect } from "react-redux";
 import styled from 'styled-components';
+import Title from "../../components/title";
 
 const HomeWrapper = styled.div`
   display: flex; 
@@ -10,10 +10,8 @@ const HomeWrapper = styled.div`
 
 export const Home = () => {
   return <HomeWrapper>
-    <h1>
-      Hello world!
-    </h1>
+    <Title />
   </HomeWrapper>
 }
 
-export default connect()(Home);
+export default Home;
